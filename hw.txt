@@ -1,0 +1,5 @@
+1. create your own branch Arjun from qi
+2. inside utils.py
+   create a new function def get_df_info(df):
+       implement some info to be printed out, missing values for each col, dtypes for each col,
+       statistics for the numerical cols (df.describe) ...

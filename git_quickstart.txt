@@ -1,0 +1,22 @@
+clone a repo:
+    git clone [url]
+create a new brach:
+    git checkout -b [branch name]
+switch between braches:
+    git checkout [branch name]
+pull the changes of a branch from remote:
+    git pull
+add/update files:
+    git add -u
+    git add [filename/dir name]
+    git add .
+commit changes:
+    git commit -m "[msg]"
+push your local changes to remote:
+    git push
+
+#================================#
+tasks to be done on the website:
+create a new repo
+add collaborators
+merge request
