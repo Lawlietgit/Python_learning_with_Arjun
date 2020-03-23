@@ -25,3 +25,9 @@ def load_df(fpath):
     n, d = df.shape
     print("{} rows and {} columns read from {}".format(n, d, fpath))
     return df
+def get_df_info(df):
+    """
+check which entries in data frame are null
+"""
+    df.isna()
+
