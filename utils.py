@@ -27,7 +27,9 @@ def load_df(fpath):
     return df
 def get_df_info(df):
     """
-check which entries in data frame are null
+check if entries in data frame are null
 """
-    df.isna()
+    if df == df.isna():
+        return false
+    return true
 
