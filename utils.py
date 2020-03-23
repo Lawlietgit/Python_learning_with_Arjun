@@ -30,6 +30,6 @@ def get_df_info(df):
 check if entries in data frame are null
 """
     if df == df.isna():
-        return false
-    return true
+        return False
+    return True
 
